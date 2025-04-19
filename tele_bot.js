@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '8141928574:AAEw3AUBVz4PqxMPVLtaI8xfiGPwLvSx8fc';
+const token = 'ADD_TOKEN';
 const bot = new TelegramBot(token, { polling: true });
 const schedule = require('node-schedule');
 const userTodos = {};
